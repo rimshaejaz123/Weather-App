@@ -1,0 +1,84 @@
+/* background image */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered weather app card */
+.weather-app {
+  background: rgba(0, 0, 0, 0.6); /* transparent dark overlay */
+  padding: 25px;
+  border-radius: 50px;
+  text-align: center;
+  width: 550px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.weather-app h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffd700; /* golden title */
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 65%;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #e68900;
+}
+
+/* Weather result styling */
+#weatherResult {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#weatherResult img {
+  width: 80px;
+}
+/* Forecast styling */
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.forecast-day {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  color: #fff;
+  font-size: 14px;
+}
+
+.forecast-day img {
+  width: 50px;
+}
